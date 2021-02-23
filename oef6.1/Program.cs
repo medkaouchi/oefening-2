@@ -55,6 +55,8 @@ namespace oef6._1
                 _kind = kind;
             Console.WriteLine("\n");
             Console.WriteLine($"Totaal : {_vol+_tien+_kind} euro");
+            //extra 10% korting 
+            Console.WriteLine($"Totaal : {_vol + _tien + _kind-(((vol*35)+(tien*25)+(kind*20))*0.1)} euro");
             Console.ReadLine();
             
 
